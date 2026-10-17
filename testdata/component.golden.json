@@ -1,0 +1,47 @@
+[
+  {
+    "file_path": "src/component.jsx",
+    "type": "function",
+    "content": "export function List({ items }) {\n  return items.map((i) =\u003e \u003cli key={i}\u003e{i}\u003c/li\u003e);\n}",
+    "metadata": {
+      "end_line": "3",
+      "exported": "true",
+      "fqn": "List",
+      "name": "List",
+      "namespace": "",
+      "params": "({ items })",
+      "signature": "export function List({ items })",
+      "start_line": "1"
+    }
+  },
+  {
+    "file_path": "src/component.jsx",
+    "type": "class",
+    "content": "export default class App extends React.Component",
+    "metadata": {
+      "default": "true",
+      "end_line": "5",
+      "exported": "true",
+      "extends": "React.Component",
+      "fqn": "App",
+      "name": "App",
+      "namespace": "",
+      "start_line": "5"
+    }
+  },
+  {
+    "file_path": "src/component.jsx",
+    "type": "method",
+    "content": "render() {\n    return \u003cList items={[1, 2]} /\u003e;\n  }",
+    "metadata": {
+      "end_line": "8",
+      "fqn": "App.render",
+      "name": "render",
+      "namespace": "",
+      "params": "()",
+      "receiver": "App",
+      "signature": "render()",
+      "start_line": "6"
+    }
+  }
+]
