@@ -1,0 +1,266 @@
+[
+  {
+    "file_path": "src/all.js",
+    "type": "import",
+    "content": "import x from \"react\";",
+    "metadata": {
+      "end_line": "2",
+      "name": "react",
+      "namespace": "",
+      "start_line": "2"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "import",
+    "content": "import \"./dep\";",
+    "metadata": {
+      "end_line": "3",
+      "name": "./dep",
+      "namespace": "",
+      "start_line": "3"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "export",
+    "content": "export * as z from \"./z\";",
+    "metadata": {
+      "end_line": "4",
+      "exported": "true",
+      "name": "./z",
+      "namespace": "",
+      "start_line": "4"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "class",
+    "content": "/** Foo docs. */\n@component({ selector: \"x\" })\nexport class Foo extends Bar",
+    "metadata": {
+      "decorators": "@component({ selector: \"x\" })",
+      "end_line": "8",
+      "exported": "true",
+      "extends": "Bar",
+      "fqn": "Foo",
+      "name": "Foo",
+      "namespace": "",
+      "start_line": "6"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "property",
+    "content": "x = 1",
+    "metadata": {
+      "end_line": "9",
+      "fqn": "Foo.x",
+      "name": "x",
+      "namespace": "",
+      "receiver": "Foo",
+      "start_line": "9"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "property",
+    "content": "static #z = 2",
+    "metadata": {
+      "end_line": "10",
+      "fqn": "Foo.#z",
+      "modifiers": "static",
+      "name": "#z",
+      "namespace": "",
+      "receiver": "Foo",
+      "start_line": "10",
+      "visibility": "private"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "method",
+    "content": "handle = () =\u003e 1",
+    "metadata": {
+      "end_line": "11",
+      "fqn": "Foo.handle",
+      "name": "handle",
+      "namespace": "",
+      "params": "()",
+      "receiver": "Foo",
+      "signature": "handle = () =\u003e",
+      "start_line": "11"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "static_block",
+    "content": "static {\n    Foo.ready = true;\n  }",
+    "metadata": {
+      "end_line": "15",
+      "fqn": "Foo.static",
+      "name": "static",
+      "namespace": "",
+      "receiver": "Foo",
+      "start_line": "13"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "method",
+    "content": "constructor(a) {\n    super(a);\n  }",
+    "metadata": {
+      "end_line": "19",
+      "fqn": "Foo.constructor",
+      "name": "constructor",
+      "namespace": "",
+      "params": "(a)",
+      "receiver": "Foo",
+      "signature": "constructor(a)",
+      "start_line": "17"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "method",
+    "content": "/** Value. */\n  async get v() {\n    return 1;\n  }",
+    "metadata": {
+      "end_line": "24",
+      "fqn": "Foo.v",
+      "modifiers": "async get",
+      "name": "v",
+      "namespace": "",
+      "params": "()",
+      "receiver": "Foo",
+      "signature": "async get v()",
+      "start_line": "21"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "method",
+    "content": "async *it() {}",
+    "metadata": {
+      "end_line": "26",
+      "fqn": "Foo.it",
+      "modifiers": "async generator",
+      "name": "it",
+      "namespace": "",
+      "params": "()",
+      "receiver": "Foo",
+      "signature": "async *it()",
+      "start_line": "26"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "function",
+    "content": "// An arrow function.\nexport const f = async (a) =\u003e a;",
+    "metadata": {
+      "end_line": "30",
+      "exported": "true",
+      "fqn": "f",
+      "kind": "const",
+      "modifiers": "async",
+      "name": "f",
+      "namespace": "",
+      "params": "(a)",
+      "signature": "export const f = async (a) =\u003e",
+      "start_line": "29"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "function",
+    "content": "function g() {}",
+    "metadata": {
+      "end_line": "31",
+      "fqn": "g",
+      "name": "g",
+      "namespace": "",
+      "params": "()",
+      "signature": "function g()",
+      "start_line": "31"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "function",
+    "content": "export default function h() {}",
+    "metadata": {
+      "default": "true",
+      "end_line": "32",
+      "exported": "true",
+      "fqn": "h",
+      "name": "h",
+      "namespace": "",
+      "params": "()",
+      "signature": "export default function h()",
+      "start_line": "32"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "variable",
+    "content": "var x2 = 1;",
+    "metadata": {
+      "end_line": "33",
+      "fqn": "x2",
+      "kind": "var",
+      "name": "x2",
+      "namespace": "",
+      "start_line": "33"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "variable",
+    "content": "let x = 2;",
+    "metadata": {
+      "end_line": "34",
+      "fqn": "x",
+      "kind": "let",
+      "name": "x",
+      "namespace": "",
+      "start_line": "34"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "constant",
+    "content": "const K = 3;",
+    "metadata": {
+      "end_line": "35",
+      "fqn": "K",
+      "kind": "const",
+      "name": "K",
+      "namespace": "",
+      "start_line": "35"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "function",
+    "content": "const Comp = () =\u003e \u003cdiv\u003ehi\u003c/div\u003e;",
+    "metadata": {
+      "end_line": "36",
+      "fqn": "Comp",
+      "kind": "const",
+      "name": "Comp",
+      "namespace": "",
+      "params": "()",
+      "signature": "const Comp = () =\u003e",
+      "start_line": "36"
+    }
+  },
+  {
+    "file_path": "src/all.js",
+    "type": "statement",
+    "content": "module.exports = { g };\nconsole.log(\"run\");",
+    "metadata": {
+      "end_line": "38",
+      "name": "statements",
+      "namespace": "",
+      "start_line": "37"
+    }
+  }
+]
